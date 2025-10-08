@@ -1,0 +1,17 @@
+site_name: JPX ScreenBook
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.sections
+    - search.suggest
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Companies:
+      - !glob docs/companies/*.md
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true
